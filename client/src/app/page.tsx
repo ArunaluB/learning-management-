@@ -1,8 +1,8 @@
-
+import NonDashboardNavbar from "@/components/NonDashboardNavbar";
 export default function Home() {
   return (
-    <div >
-      hiii
+    <div className="nondashboard-layout" >
+     <NonDashboardNavbar/>
     </div>
   );
 }
