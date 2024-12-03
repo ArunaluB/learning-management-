@@ -10,7 +10,6 @@ import { useGetCoursesQuery } from "@/state/api";
 import CourseCardSearch from "@/components/CourseCardSearch";
 import { useRouter } from "next/navigation";
 
-
 const LoadingSkeleton = () => {
     return (
         <div className="landing-skeleton">

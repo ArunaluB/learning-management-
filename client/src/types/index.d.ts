@@ -31,6 +31,15 @@ declare global {
     course: Course;
     handleEnrollNow: (courseId: string) => void;
   }
+
+  interface HeaderProps {
+    title: string;
+    subtitle: string;
+    rightElement?: ReactNode;
+  }
+
+
+
   }
   
   export {};
