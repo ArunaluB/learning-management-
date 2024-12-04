@@ -38,7 +38,38 @@ declare global {
     rightElement?: ReactNode;
   }
 
+  interface UserSettings {
+    theme?: "light" | "dark";
+    emailAlerts?: boolean;
+    smsAlerts?: boolean;
+    courseNotifications?: boolean;
+    notificationFrequency?: "immediate" | "daily" | "weekly";
+  }
 
+  interface User {
+    userId: string;
+    firstName?: string;
+    lastName?: string;
+    username?: string;
+    email: string;
+    publicMetadata: {
+      userType: "teacher" | "student";
+    };
+    privateMetadata: {
+      settings?: UserSettings;
+      paymentMethods?: Array<PaymentMethod>;
+      defaultPaymentMethodId?: string;
+      stripeCustomerId?: string;
+    };
+    unsafeMetadata: {
+      bio?: string;
+      urls?: string[];
+    };
+  }
+  interface SharedNotificationSettingsProps {
+    title?: string;
+    subtitle?: string;
+  }
 
   }
   
