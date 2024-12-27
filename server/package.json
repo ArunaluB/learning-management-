@@ -25,6 +25,7 @@
     "morgan": "^1.10.0",
     "pluralize": "^8.0.0",
     "server": "file:",
+    "stripe": "^17.5.0",
     "uuid": "^11.0.3"
   },
   "devDependencies": {
