@@ -7,6 +7,7 @@ import {
   listCourses,
   updateCourse,
   getUploadVideoUrl,
+  getUploadPhotoUrl,
 } from "../controllers/courseController";
 import { requireAuth } from "@clerk/express";
 
@@ -25,5 +26,6 @@ router.post(
   requireAuth(),
   getUploadVideoUrl
 );
+router.post("/upload-photo-url", requireAuth(), getUploadPhotoUrl);
 
 export default router;

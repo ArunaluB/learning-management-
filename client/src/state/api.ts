@@ -145,6 +145,16 @@ export const api = createApi({
         body: { fileName, fileType },
       }),
     }),
+    getUploadImageUrl: build.mutation<
+    { uploadUrl: string; imageUrl: string },
+    { fileName: string; fileType: string }
+  >({
+    query: (body) => ({
+      url: `courses/upload-photo-url`,
+      method: "POST",
+      body,
+    }),
+  }),
 
     /* 
     ===============
@@ -241,6 +251,7 @@ export const {
   useGetCoursesQuery,
   useGetCourseQuery,
   useGetUploadVideoUrlMutation,
+  useGetUploadImageUrlMutation,
   useGetTransactionsQuery,
   useCreateTransactionMutation,
   useCreateStripePaymentIntentMutation,

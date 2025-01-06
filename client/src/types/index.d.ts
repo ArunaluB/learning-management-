@@ -36,6 +36,7 @@ declare global {
   }
 
   interface Course {
+    imageUrl: null;
     courseId: string;
     teacherId: string;
     teacherName: string;
@@ -205,6 +206,7 @@ declare global {
     courseCategory: string;
     coursePrice: string;
     courseStatus: boolean;
+    courseImage: string;
   }
 }
 

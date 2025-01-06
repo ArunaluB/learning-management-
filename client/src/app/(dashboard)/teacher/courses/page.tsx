@@ -31,7 +31,7 @@ const Courses = () => {
 
   const filteredCourses = useMemo(() => {
     if (!courses) return [];
-
+    
     return courses.filter((course) => {
       const matchesSearch = course.title
         .toLowerCase()
@@ -75,14 +75,23 @@ const Courses = () => {
         title="Courses"
         subtitle="Browse your courses"
         rightElement={
-          <Button
-            onClick={handleCreateCourse}
-            className="teacher-courses__header"
-          >
-            Create Course
-          </Button>
+          <div style={{ display: "flex", gap: "10px" }}>
+            <Button
+              onClick={handleCreateCourse}
+              className="teacher-courses__header"
+            >
+              Create Course
+            </Button>
+            <Button
+              onClick={handleCreateCourse}
+              className="teacher-courses__header"
+            >
+              Create AI Course
+            </Button>
+          </div>
         }
       />
+
       <Toolbar
         onSearch={setSearchTerm}
         onCategoryChange={setSelectedCategory}
