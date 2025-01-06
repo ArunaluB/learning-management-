@@ -21,7 +21,7 @@ const AccordionSections = ({ sections }: AccordionSectionsProps) => {
           </AccordionTrigger>
           <AccordionContent className="accordion-section__content">
             <ul>
-              {section.chapters.map((chapter: { chapterId: React.Key | null | undefined; title: string | number | bigint | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<React.AwaitedReactNode> | null | undefined; }) => (
+              {section.chapters.map((chapter) => (
                 <li
                   key={chapter.chapterId}
                   className="accordion-section__chapter"

@@ -11,8 +11,8 @@
     "level": "Beginner",
     "status": "Published",
     "enrollments": [
-      { "userId": "user_2ntu96pUCljUV2T9W0AThzjacQB" },
-      { "userId": "user_9xWp45MnKjL8vRt2Hs6BqDcEy" }
+      { "userId": "user_4mNj68RtPvXw2Ky9Qc7HbSdAf" },
+      { "userId": "user_4mNj68RtPvXw2Ky9Qc7HbSdAf" }
     ],
     "sections": [
       {
@@ -123,8 +123,8 @@
     "level": "Advanced",
     "status": "Published",
     "enrollments": [
-      { "userId": "user_2ntu96pUCljUV2T9W0AThzjacQB" },
-      { "userId": "user_5vBn23WsLkMp7Jh4Gt8FxYcRz" }
+      { "userId": "user_4mNj68RtPvXw2Ky9Qc7HbSdAf" },
+      { "userId": "user_4mNj68RtPvXw2Ky9Qc7HbSdAf" }
     ],
     "sections": [
       {
@@ -237,8 +237,8 @@
     "level": "Beginner",
     "status": "Published",
     "enrollments": [
-      { "userId": "user_6tHm89QwNpKj3Fx5Vy2RdLcBs" },
-      { "userId": "user_9xWp45MnKjL8vRt2Hs6BqDcEy" }
+      { "userId": "user_4mNj68RtPvXw2Ky9Qc7HbSdAf" },
+      { "userId": "user_4mNj68RtPvXw2Ky9Qc7HbSdAf" }
     ],
     "sections": [
       {
@@ -313,8 +313,8 @@
     "level": "Intermediate",
     "status": "Published",
     "enrollments": [
-      { "userId": "user_6tHm89QwNpKj3Fx5Vy2RdLcBs" },
-      { "userId": "user_9xWp45MnKjL8vRt2Hs6BqDcEy" }
+      { "userId": "user_4mNj68RtPvXw2Ky9Qc7HbSdAf" },
+      { "userId": "user_4mNj68RtPvXw2Ky9Qc7HbSdAf" }
     ],
     "sections": [
       {
@@ -352,7 +352,7 @@
     "price": 12999,
     "level": "Advanced",
     "status": "Published",
-    "enrollments": [{ "userId": "user_6tHm89QwNpKj3Fx5Vy2RdLcBs" }],
+    "enrollments": [{ "userId": "user_4mNj68RtPvXw2Ky9Qc7HbSdAf" }],
     "sections": [
       {
         "sectionId": "5k7l9m1n-3o5p-7q9r-1s3t-5u7v9w1x3y5z",

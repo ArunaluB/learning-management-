@@ -8,8 +8,8 @@ export default clerkMiddleware(async (auth, req) => {
   const { sessionClaims } = await auth();
   const userRole =
     (sessionClaims?.metadata as { userType: "student" | "teacher" })
-      ?.userType || "student";
-
+      ?.userType || "teacher";
+    console.log("User role middleware ----------",userRole);
   if (isStudentRoute(req)) {
     if (userRole !== "student") {
       const url = new URL("/teacher/courses", req.url);

@@ -1,13 +1,13 @@
-import Header from '@/components/Header'
-import { UserProfile } from '@clerk/nextjs'
-import { dark } from '@clerk/themes'
-import React from 'react'
+import Header from "@/components/Header";
+import { UserProfile } from "@clerk/nextjs";
+import { dark } from "@clerk/themes";
+import React from "react";
 
-const UserProfilePage  = () => {
+const UserProfilePage = () => {
   return (
     <>
-    <Header title="Profile" subtitle="View your profile" />
-    <UserProfile
+      <Header title="Profile" subtitle="View your profile" />
+      <UserProfile
         path="/user/profile"
         routing="path"
         appearance={{
@@ -23,7 +23,7 @@ const UserProfilePage  = () => {
         }}
       />
     </>
-  )
-}
+  );
+};
 
-export default UserProfilePage 
+export default UserProfilePage;
